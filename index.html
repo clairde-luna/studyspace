@@ -6,32 +6,58 @@
     <title>StudySpace</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>StudySpace</h1>
-        <p>Your space to focus.</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>Today's Progress</h2>
-            <p>You've completed 2 out of 5 tasks.</p>
-        </section>
+    <div class="dashboard">
 
-        <section>
-            <h2>Today's Tasks</h2>
-            <ul>
-                <li>Finish chemistry homework</li>
-                <li>Review biology notes</li>
-                <li>Read assigned article</li>
-            </ul>
-        </section>
+        <aside class="sidebar">
+            <h2>StudySpace</h2>
 
-        <section>
-            <h2>This Week</h2>
-            <p>Monday · Tuesday · Wednesday · Thursday · Friday</p>
-            <a href="calendar.html">View full calendar</a>
-        </section>
-    </main>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Calendar</a>
+                <a href="#">Tasks</a>
+                <a href="#">Focus Timer</a>
+                <a href="#">Notes</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+
+            <header>
+                <h1>Good morning!</h1>
+                <p>Small steps make big progress.</p>
+            </header>
+
+            <div class="dashboard-grid">
+
+                <section class="progress-card">
+                    <h2>Today's Progress</h2>
+                    <p>You've completed 2 out of 5 tasks.</p>
+                </section>
+
+                <section class="tasks-card">
+                    <h2>Today's Tasks</h2>
+                    <ul>
+                        <li>Finish chemistry homework</li>
+                        <li>Review biology notes</li>
+                        <li>Read assigned article</li>
+                    </ul>
+                </section>
+
+                <section class="calendar-card">
+                    <h2>This Week</h2>
+                    <p>Mon &nbsp; Tue &nbsp; Wed &nbsp; Thu &nbsp; Fri</p>
+                    <a href="#">View full calendar →</a>
+                </section>
+
+            </div>
+
+        </main>
+
+    </div>
+
 </body>
+
 </html>
